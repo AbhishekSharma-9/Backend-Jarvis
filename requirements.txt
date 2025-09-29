@@ -1,0 +1,5 @@
+Flask
+paho-mqtt
+google-generativeai
+Flask-Cors
+pymongo
