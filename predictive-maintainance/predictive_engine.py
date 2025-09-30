@@ -9,7 +9,7 @@ from flask_cors import CORS
 
 # It's important to keep your API key secure. You should never commit it to a public repository.
 # Replace with your actual Gemini API key.
-API_KEY = "AIzaSyBcMZWXCFfFB0ywu8JjkaN44PFQzbU_0vk"
+API_KEY = "Your_API_Key"
 LLM_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=" + API_KEY
 
 # MQTT Configuration
@@ -121,3 +121,4 @@ if __name__ == '__main__':
 
     # Start the Flask web server on the main thread
     app.run(debug=True, use_reloader=False)
+
